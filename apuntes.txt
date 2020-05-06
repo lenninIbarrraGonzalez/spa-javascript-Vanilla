@@ -51,3 +51,5 @@ creamos el Header.js
 
 despues vamos a pages y creamos character.js
 
+Creamos la Pagina 404
+
