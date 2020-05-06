@@ -1,0 +1,46 @@
+inicio mi proyecto crando la carpeta cientifico
+git init
+npm init
+
+instalamos dependencias necesarias 
+
+@babel/core : incluye toda la libreria de babel.
+
+babel-loader : Este paquete permite transpilar archivos JavaScript utilizando Babel y webpack .
+
+html-webpack-plugin: Permite copiar los archivos HTML del proyecto.
+
+webpack-cli: Permite manejar ciertos comandos
+
+webpack-dev-server : Permite crear un entorno de desarrollo local para probar los cambios que se esta realizando.
+
+–save-dev : Permite instalar un conjunto de dependencia en la modalidad de desarrollo para el archivo packet json
+
+npm install @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server --save-dev
+
+Creamos el archivo --configuración del proyecto
+webpack.config.json
+
+crear el .gitignore
+node_modules
+
+ignorar esta carpeta para  no enviar estos cambios al repositorio
+
+Cramos unos script para trabajar con el servidor de desarrollo local en le package.json
+
+buil => compilar el proyecto para enviarlo a producción
+start => habilita el ambiente local para hacer pruebas
+
+"scripts": {
+    "build": "webpack --modo production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+
+para correr los comandos 
+
+npm run build
+
+este compila el codigo en una carpeta llamada dist
+
+Creamos home.js el cual tiene un template literal
+
