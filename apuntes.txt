@@ -44,3 +44,10 @@ este compila el codigo en una carpeta llamada dist
 
 Creamos home.js el cual tiene un template literal
 
+Creamos la carpeta template 
+no es una pagina pero es un template que se puede reutilizar
+
+creamos el Header.js
+
+despues vamos a pages y creamos character.js
+
