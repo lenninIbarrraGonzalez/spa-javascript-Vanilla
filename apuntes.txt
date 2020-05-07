@@ -71,3 +71,16 @@ exportamos router
 en el index.js principal llamamos a importamos router y colocamos un evento que escuche a load 
 
 
+creamos en utils getHash.js donde estaran las rutas
+
+location --  haceder a un elemento del explorador locaation
+hash -- obtener el hash  #/1
+slide(1) -- elimianmos un elemento #
+toLocateLowerCase() -- lo regeresamos en minusculas
+split("/") -- cortamos el / ['', 1 , '']
+[1] -- utilizamos la posición numero uno
+
+location.hash.slide(1).toLocateLowerCase().split("/")[1] || "/";
+
+creamos un arcivo que resuelve la rutas
+
