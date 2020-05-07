@@ -53,3 +53,21 @@ despues vamos a pages y creamos character.js
 
 Creamos la Pagina 404
 
+En routes creamos un archivo index.js
+importamos los template y las paginas para hacer render
+por buena practica no es  neceario colocar el .js
+cramos las rutas que vamos a menejar en la aplicación
+construimos un manejador
+const router = async () => {
+  const header = null || document.getElementById('header');
+  const content = null || document.getElementById('content');
+
+  header.innerHTML = await Header();
+};
+
+empujar el header a la aplicación
+exportamos router
+
+en el index.js principal llamamos a importamos router y colocamos un evento que escuche a load 
+
+

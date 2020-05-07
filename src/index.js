@@ -1,1 +1,4 @@
-console.log("Hola Satanás");
+import router from './routes';
+
+
+window.addEventListener('load', router);
