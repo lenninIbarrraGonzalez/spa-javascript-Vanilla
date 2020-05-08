@@ -84,3 +84,12 @@ location.hash.slide(1).toLocateLowerCase().split("/")[1] || "/";
 
 creamos un arcivo que resuelve la rutas
 
+instalamos un paquete para manejar los construimos
+
+npm install copy-webpack-plugin --save-dev
+
+
+en webpack config
+
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+
